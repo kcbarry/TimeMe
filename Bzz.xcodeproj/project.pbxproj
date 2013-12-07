@@ -18,8 +18,6 @@
 		AA2F1DFE17ECD84D001AB1D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DFD17ECD84D001AB1D6 /* XCTest.framework */; };
 		AA2F1DFF17ECD84D001AB1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */; };
 		AA2F1E0017ECD84D001AB1D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DE217ECD84D001AB1D6 /* UIKit.framework */; };
-		AA2F1E0817ECD84D001AB1D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA2F1E0617ECD84D001AB1D6 /* InfoPlist.strings */; };
-		AA2F1E0A17ECD84D001AB1D6 /* TimeMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F1E0917ECD84D001AB1D6 /* TimeMeTests.m */; };
 		D335DE1E1836E007008F9530 /* TMMaxPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D335DE1D1836E007008F9530 /* TMMaxPickerCell.m */; };
 		D3377F8217FF71F400993815 /* TMTimePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3377F8117FF71F400993815 /* TMTimePickerCell.m */; };
 		D36AE221183D72600075C8E9 /* TMTimerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AE220183D72600075C8E9 /* TMTimerConfiguration.m */; };
@@ -67,9 +65,6 @@
 		AA2F1DF617ECD84D001AB1D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA2F1DFC17ECD84D001AB1D6 /* BzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F1DFD17ECD84D001AB1D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AA2F1E0517ECD84D001AB1D6 /* BzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BzzTests-Info.plist"; sourceTree = "<group>"; };
-		AA2F1E0717ECD84D001AB1D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA2F1E0917ECD84D001AB1D6 /* TimeMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeMeTests.m; sourceTree = "<group>"; };
 		D335DE1C1836E007008F9530 /* TMMaxPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMaxPickerCell.h; sourceTree = "<group>"; };
 		D335DE1D1836E007008F9530 /* TMMaxPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMaxPickerCell.m; sourceTree = "<group>"; };
 		D335DE1F1836E0A7008F9530 /* TMTimePickerCell_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTimePickerCell_Private.h; sourceTree = "<group>"; };
@@ -139,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				AA2F1DE417ECD84D001AB1D6 /* TimeMe */,
-				AA2F1E0317ECD84D001AB1D6 /* TimeMeTests */,
 				AA2F1DDD17ECD84D001AB1D6 /* Frameworks */,
 				AA2F1DDC17ECD84D001AB1D6 /* Products */,
 			);
@@ -188,24 +182,6 @@
 				AA2F1DE717ECD84D001AB1D6 /* InfoPlist.strings */,
 				AA2F1DEA17ECD84D001AB1D6 /* main.m */,
 				AA2F1DEC17ECD84D001AB1D6 /* Bzz-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA2F1E0317ECD84D001AB1D6 /* TimeMeTests */ = {
-			isa = PBXGroup;
-			children = (
-				AA2F1E0917ECD84D001AB1D6 /* TimeMeTests.m */,
-				AA2F1E0417ECD84D001AB1D6 /* Supporting Files */,
-			);
-			path = TimeMeTests;
-			sourceTree = "<group>";
-		};
-		AA2F1E0417ECD84D001AB1D6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA2F1E0517ECD84D001AB1D6 /* BzzTests-Info.plist */,
-				AA2F1E0617ECD84D001AB1D6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -370,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F1E0817ECD84D001AB1D6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F1E0A17ECD84D001AB1D6 /* TimeMeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +402,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				AA2F1DE817ECD84D001AB1D6 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AA2F1E0617ECD84D001AB1D6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA2F1E0717ECD84D001AB1D6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
