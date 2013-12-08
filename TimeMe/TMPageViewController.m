@@ -12,7 +12,7 @@
 #import "TMConfigurationManager.h"
 #import "TMViewController.h"
 #import "NSString+TMTimeIntervalString.h"
-#import "TMAlertManager.h"
+#import <TMLibrary/TMAlertManager.h>
 #import "TMTimerConfiguration.h"
 #import "TMConfigurationViewController.h"
 

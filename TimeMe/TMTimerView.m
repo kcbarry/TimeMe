@@ -8,7 +8,7 @@
 
 #import "TMTimerView.h"
 #import "TMStyleManager.h"
-#import "TMAlertManager.h"
+#import <TMLibrary/TMAlertManager.h>
 #import "NSString+TMTimeIntervalString.h"
 
 #define UPDATE_INTERVAL .05

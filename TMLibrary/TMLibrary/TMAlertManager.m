@@ -8,6 +8,7 @@
 
 #import "TMAlertManager.h"
 #import <AudioToolbox/AudioToolbox.h>
+#import <UIKit/UIKit.h>
 #import "NSString+TMTimeIntervalString.h"
 
 #define TWO_MINUTES (2.*60.)

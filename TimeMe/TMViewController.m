@@ -11,7 +11,7 @@
 #import "TMTimeLabelCell.h"
 #import "TMIntervalLabelCell.h"
 #import "TMTimePickerCell.h"
-#import "TMAlertManager.h"
+#import <TMLibrary/TMAlertManager.h>
 #import "TMStyleManager.h"
 #import "NSString+TMTimeIntervalString.h"
 #import "TMAddIntervalViewController.h"

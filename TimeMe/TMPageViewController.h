@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TMConfigurationViewController.h"
-#import "TMAlertManager.h"
+#import <TMLibrary/TMAlertManager.h>
 @interface TMPageViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate,TMConfigurationViewControllerDelegate,TMAlertDelegate>
 
 @end

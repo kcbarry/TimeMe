@@ -26,7 +26,6 @@
 		D38DE83F1805F22000771267 /* TMStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DE83E1805F22000771267 /* TMStyleManager.m */; };
 		D38DE84518071F6A00771267 /* TMTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DE84418071F6A00771267 /* TMTimerView.m */; };
 		D38DE8471809184D00771267 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38DE8461809184D00771267 /* AudioToolbox.framework */; };
-		D38DE84B1809BFA400771267 /* TMAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DE84A1809BFA400771267 /* TMAlertManager.m */; };
 		D38DE84E1809C5E900771267 /* NSString+TMTimeIntervalString.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DE84D1809C5E900771267 /* NSString+TMTimeIntervalString.m */; };
 		D38E5E7E1834463C0059071A /* TMAddIntervalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38E5E7D1834463C0059071A /* TMAddIntervalViewController.m */; };
 		D3BDE84C180A4398005D0AC3 /* TMIntervalLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BDE84B180A4398005D0AC3 /* TMIntervalLabelCell.m */; };
@@ -34,6 +33,7 @@
 		D3CF7CDB18498E81002A66CD /* TMConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF7CDA18498E81002A66CD /* TMConfigurationViewController.m */; };
 		D3CF7CDE18498FF6002A66CD /* TMConfigurationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF7CDD18498FF6002A66CD /* TMConfigurationTableViewCell.m */; };
 		D3E3E340184BA354005DEC60 /* TMSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E33F184BA354005DEC60 /* TMSectionHeader.m */; };
+		D3E3E3741853FB8F005DEC60 /* libTMLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3E3731853FB8F005DEC60 /* libTMLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,8 +72,6 @@
 		D38DE84318071F6A00771267 /* TMTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTimerView.h; sourceTree = "<group>"; };
 		D38DE84418071F6A00771267 /* TMTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTimerView.m; sourceTree = "<group>"; };
 		D38DE8461809184D00771267 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		D38DE8491809BFA400771267 /* TMAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAlertManager.h; sourceTree = "<group>"; };
-		D38DE84A1809BFA400771267 /* TMAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAlertManager.m; sourceTree = "<group>"; };
 		D38DE84C1809C5E900771267 /* NSString+TMTimeIntervalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TMTimeIntervalString.h"; sourceTree = "<group>"; };
 		D38DE84D1809C5E900771267 /* NSString+TMTimeIntervalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMTimeIntervalString.m"; sourceTree = "<group>"; };
 		D38E5E7C1834463C0059071A /* TMAddIntervalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAddIntervalViewController.h; sourceTree = "<group>"; };
@@ -88,6 +86,7 @@
 		D3CF7CDD18498FF6002A66CD /* TMConfigurationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMConfigurationTableViewCell.m; sourceTree = "<group>"; };
 		D3E3E33E184BA354005DEC60 /* TMSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSectionHeader.h; sourceTree = "<group>"; };
 		D3E3E33F184BA354005DEC60 /* TMSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSectionHeader.m; sourceTree = "<group>"; };
+		D3E3E3731853FB8F005DEC60 /* libTMLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libTMLibrary.a; path = "TMLibrary/build/Debug-iphoneos/libTMLibrary.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E3E3741853FB8F005DEC60 /* libTMLibrary.a in Frameworks */,
 				D38DE8471809184D00771267 /* AudioToolbox.framework in Frameworks */,
 				AA2F1DE117ECD84D001AB1D6 /* CoreGraphics.framework in Frameworks */,
 				AA2F1DE317ECD84D001AB1D6 /* UIKit.framework in Frameworks */,
@@ -125,6 +125,7 @@
 		AA2F1DDD17ECD84D001AB1D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3E3E3731853FB8F005DEC60 /* libTMLibrary.a */,
 				D38DE8461809184D00771267 /* AudioToolbox.framework */,
 				AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */,
 				AA2F1DE017ECD84D001AB1D6 /* CoreGraphics.framework */,
@@ -166,8 +167,6 @@
 				D36AE2311842B3160075C8E9 /* TMConfigurationManager.m */,
 				D36AE21F183D72600075C8E9 /* TMTimerConfiguration.h */,
 				D36AE220183D72600075C8E9 /* TMTimerConfiguration.m */,
-				D38DE8491809BFA400771267 /* TMAlertManager.h */,
-				D38DE84A1809BFA400771267 /* TMAlertManager.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -306,7 +305,6 @@
 				D3CF7CDE18498FF6002A66CD /* TMConfigurationTableViewCell.m in Sources */,
 				D3BDE84C180A4398005D0AC3 /* TMIntervalLabelCell.m in Sources */,
 				D3E3E340184BA354005DEC60 /* TMSectionHeader.m in Sources */,
-				D38DE84B1809BFA400771267 /* TMAlertManager.m in Sources */,
 				D335DE1E1836E007008F9530 /* TMMaxPickerCell.m in Sources */,
 				D36AE22D1842B2560075C8E9 /* TMPageViewController.m in Sources */,
 				D3BDE84F180A45B1005D0AC3 /* TMTableViewCell.m in Sources */,

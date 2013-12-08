@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TMAlertManager.h"
+#import <TMLibrary/TMAlertManager.h>
 #import "TMStyleManager.h"
 #import "TMPageViewController.h"
 

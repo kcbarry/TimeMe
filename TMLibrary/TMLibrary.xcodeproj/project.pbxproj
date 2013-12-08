@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D3E3E34E1852F6D7005DEC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3E34D1852F6D7005DEC60 /* Foundation.framework */; };
-		D3E3E3531852F6D7005DEC60 /* TMLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E3E3521852F6D7005DEC60 /* TMLibrary.h */; };
-		D3E3E3551852F6D7005DEC60 /* TMLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E3541852F6D7005DEC60 /* TMLibrary.m */; };
+		D3E3E3771853FBD3005DEC60 /* TMAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E3761853FBD3005DEC60 /* TMAlertManager.m */; };
+		D3E3E37C1853FC11005DEC60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3E37B1853FC11005DEC60 /* UIKit.framework */; };
+		D3E3E37D1853FC62005DEC60 /* TMAlertManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E3E3751853FBD3005DEC60 /* TMAlertManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +20,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				D3E3E3531852F6D7005DEC60 /* TMLibrary.h in CopyFiles */,
+				D3E3E37D1853FC62005DEC60 /* TMAlertManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +30,11 @@
 		D3E3E34A1852F6D7005DEC60 /* libTMLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E3E34D1852F6D7005DEC60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3E3E3511852F6D7005DEC60 /* TMLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMLibrary-Prefix.pch"; sourceTree = "<group>"; };
-		D3E3E3521852F6D7005DEC60 /* TMLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLibrary.h; sourceTree = "<group>"; };
-		D3E3E3541852F6D7005DEC60 /* TMLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLibrary.m; sourceTree = "<group>"; };
+		D3E3E3751853FBD3005DEC60 /* TMAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAlertManager.h; sourceTree = "<group>"; };
+		D3E3E3761853FBD3005DEC60 /* TMAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAlertManager.m; sourceTree = "<group>"; };
+		D3E3E3781853FBED005DEC60 /* NSString+TMTimeIntervalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = "NSString+TMTimeIntervalString.h"; sourceTree = "<group>"; };
+		D3E3E3791853FBED005DEC60 /* NSString+TMTimeIntervalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = "NSString+TMTimeIntervalString.m"; sourceTree = "<group>"; };
+		D3E3E37B1853FC11005DEC60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E3E37C1853FC11005DEC60 /* UIKit.framework in Frameworks */,
 				D3E3E34E1852F6D7005DEC60 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +70,7 @@
 		D3E3E34C1852F6D7005DEC60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3E3E37B1853FC11005DEC60 /* UIKit.framework */,
 				D3E3E34D1852F6D7005DEC60 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -73,8 +79,9 @@
 		D3E3E34F1852F6D7005DEC60 /* TMLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				D3E3E3521852F6D7005DEC60 /* TMLibrary.h */,
-				D3E3E3541852F6D7005DEC60 /* TMLibrary.m */,
+				D3E3E3751853FBD3005DEC60 /* TMAlertManager.h */,
+				D3E3E3761853FBD3005DEC60 /* TMAlertManager.m */,
+				D3E3E37A1853FBED005DEC60 /* Categories */,
 				D3E3E3501852F6D7005DEC60 /* Supporting Files */,
 			);
 			path = TMLibrary;
@@ -86,6 +93,16 @@
 				D3E3E3511852F6D7005DEC60 /* TMLibrary-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3E3E37A1853FBED005DEC60 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3E3781853FBED005DEC60 /* NSString+TMTimeIntervalString.h */,
+				D3E3E3791853FBED005DEC60 /* NSString+TMTimeIntervalString.m */,
+			);
+			name = Categories;
+			path = ../../TimeMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E3E3551852F6D7005DEC60 /* TMLibrary.m in Sources */,
+				D3E3E3771853FBD3005DEC60 /* TMAlertManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
