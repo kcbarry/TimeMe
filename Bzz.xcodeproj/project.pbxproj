@@ -83,7 +83,7 @@
 		D3CF7CDD18498FF6002A66CD /* TMConfigurationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMConfigurationTableViewCell.m; sourceTree = "<group>"; };
 		D3E3E33E184BA354005DEC60 /* TMSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSectionHeader.h; sourceTree = "<group>"; };
 		D3E3E33F184BA354005DEC60 /* TMSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSectionHeader.m; sourceTree = "<group>"; };
-		D3E3E38218540697005DEC60 /* libTMLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libTMLibrary.a; path = "TMLibrary/build/Debug-iphoneos/libTMLibrary.a"; sourceTree = "<group>"; };
+		D3E3E38218540697005DEC60 /* libTMLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTMLibrary.a; path = "TMLibrary/build/Debug-iphoneos/libTMLibrary.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +355,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "AA62E801-997B-4FF5-A632-1FEAC1095038";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,6 +388,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "AA62E801-997B-4FF5-A632-1FEAC1095038";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
