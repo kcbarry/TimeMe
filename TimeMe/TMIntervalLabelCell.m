@@ -8,7 +8,7 @@
 
 #import "TMIntervalLabelCell.h"
 #import "TMStyleManager.h"
-#import "NSString+TMTimeIntervalString.h"
+#import <TMLibrary/NSString+TMTimeIntervalString.h>
 
 @implementation TMIntervalLabelCell
 

@@ -11,6 +11,8 @@
 		D3E3E3771853FBD3005DEC60 /* TMAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E3761853FBD3005DEC60 /* TMAlertManager.m */; };
 		D3E3E37C1853FC11005DEC60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3E37B1853FC11005DEC60 /* UIKit.framework */; };
 		D3E3E37D1853FC62005DEC60 /* TMAlertManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E3E3751853FBD3005DEC60 /* TMAlertManager.h */; };
+		D3E3E37E1853FD7F005DEC60 /* NSString+TMTimeIntervalString.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E3E3781853FBED005DEC60 /* NSString+TMTimeIntervalString.h */; };
+		D3E3E37F1853FE29005DEC60 /* NSString+TMTimeIntervalString.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E3791853FBED005DEC60 /* NSString+TMTimeIntervalString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,6 +22,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				D3E3E37E1853FD7F005DEC60 /* NSString+TMTimeIntervalString.h in CopyFiles */,
 				D3E3E37D1853FC62005DEC60 /* TMAlertManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E3E37F1853FE29005DEC60 /* NSString+TMTimeIntervalString.m in Sources */,
 				D3E3E3771853FBD3005DEC60 /* TMAlertManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

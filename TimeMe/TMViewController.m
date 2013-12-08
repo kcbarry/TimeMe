@@ -13,7 +13,7 @@
 #import "TMTimePickerCell.h"
 #import <TMLibrary/TMAlertManager.h>
 #import "TMStyleManager.h"
-#import "NSString+TMTimeIntervalString.h"
+#import <TMLibrary/NSString+TMTimeIntervalString.h>
 #import "TMAddIntervalViewController.h"
 #import "TMTimerConfiguration.h"
 #import "TMConfigurationPickerView.h"

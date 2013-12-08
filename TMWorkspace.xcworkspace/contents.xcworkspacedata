@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:TMLibrary/TMLibrary.xcodeproj">
+      location = "container:TMLibrary/TMLibrary.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Bzz.xcodeproj">

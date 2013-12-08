@@ -8,7 +8,7 @@
 
 #import "TMConfigurationTableViewCell.h"
 #import "TMTimerConfiguration.h"
-#import "NSString+TMTimeIntervalString.h"
+#import <TMLibrary/NSString+TMTimeIntervalString.h>
 #import "TMStyleManager.h"
 @implementation TMConfigurationTableViewCell
 

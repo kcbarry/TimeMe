@@ -9,7 +9,7 @@
 #import "TMConfigurationView.h"
 #import "TMTimerConfiguration.h"
 #import "TMStyleManager.h"
-#import "NSString+TMTimeIntervalString.h"
+#import <TMLibrary/NSString+TMTimeIntervalString.h>
 
 @interface TMConfigurationView () {
     UILabel *_mainLabel;

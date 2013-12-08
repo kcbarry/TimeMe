@@ -11,7 +11,7 @@
 #import "TMTimerView.h"
 #import "TMConfigurationManager.h"
 #import "TMViewController.h"
-#import "NSString+TMTimeIntervalString.h"
+#import <TMLibrary/NSString+TMTimeIntervalString.h>
 #import <TMLibrary/TMAlertManager.h>
 #import "TMTimerConfiguration.h"
 #import "TMConfigurationViewController.h"
