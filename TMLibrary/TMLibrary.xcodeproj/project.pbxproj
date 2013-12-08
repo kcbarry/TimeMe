@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E3E34E1852F6D7005DEC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3E34D1852F6D7005DEC60 /* Foundation.framework */; };
+		D3E3E3531852F6D7005DEC60 /* TMLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3E3E3521852F6D7005DEC60 /* TMLibrary.h */; };
+		D3E3E3551852F6D7005DEC60 /* TMLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E3541852F6D7005DEC60 /* TMLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3E3E3481852F6D7005DEC60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D3E3E3531852F6D7005DEC60 /* TMLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3E3E34A1852F6D7005DEC60 /* libTMLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTMLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E3E34D1852F6D7005DEC60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3E3E3511852F6D7005DEC60 /* TMLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		D3E3E3521852F6D7005DEC60 /* TMLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLibrary.h; sourceTree = "<group>"; };
+		D3E3E3541852F6D7005DEC60 /* TMLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E3E3471852F6D7005DEC60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3E34E1852F6D7005DEC60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E3E3411852F6D7005DEC60 = {
+			isa = PBXGroup;
+			children = (
+				D3E3E34F1852F6D7005DEC60 /* TMLibrary */,
+				D3E3E34C1852F6D7005DEC60 /* Frameworks */,
+				D3E3E34B1852F6D7005DEC60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E3E34B1852F6D7005DEC60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3E34A1852F6D7005DEC60 /* libTMLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E3E34C1852F6D7005DEC60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3E34D1852F6D7005DEC60 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E3E34F1852F6D7005DEC60 /* TMLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3E3521852F6D7005DEC60 /* TMLibrary.h */,
+				D3E3E3541852F6D7005DEC60 /* TMLibrary.m */,
+				D3E3E3501852F6D7005DEC60 /* Supporting Files */,
+			);
+			path = TMLibrary;
+			sourceTree = "<group>";
+		};
+		D3E3E3501852F6D7005DEC60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E3E3511852F6D7005DEC60 /* TMLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E3E3491852F6D7005DEC60 /* TMLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E3E36D1852F6D7005DEC60 /* Build configuration list for PBXNativeTarget "TMLibrary" */;
+			buildPhases = (
+				D3E3E3461852F6D7005DEC60 /* Sources */,
+				D3E3E3471852F6D7005DEC60 /* Frameworks */,
+				D3E3E3481852F6D7005DEC60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMLibrary;
+			productName = TMLibrary;
+			productReference = D3E3E34A1852F6D7005DEC60 /* libTMLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E3E3421852F6D7005DEC60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = KCBarry;
+			};
+			buildConfigurationList = D3E3E3451852F6D7005DEC60 /* Build configuration list for PBXProject "TMLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3E3E3411852F6D7005DEC60;
+			productRefGroup = D3E3E34B1852F6D7005DEC60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E3E3491852F6D7005DEC60 /* TMLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E3E3461852F6D7005DEC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3E3551852F6D7005DEC60 /* TMLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3E3E36B1852F6D7005DEC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3E3E36C1852F6D7005DEC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E3E36E1852F6D7005DEC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TMLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMLibrary/TMLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3E3E36F1852F6D7005DEC60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TMLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMLibrary/TMLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E3E3451852F6D7005DEC60 /* Build configuration list for PBXProject "TMLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3E36B1852F6D7005DEC60 /* Debug */,
+				D3E3E36C1852F6D7005DEC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E3E36D1852F6D7005DEC60 /* Build configuration list for PBXNativeTarget "TMLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3E36E1852F6D7005DEC60 /* Debug */,
+				D3E3E36F1852F6D7005DEC60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E3E3421852F6D7005DEC60 /* Project object */;
+}

@@ -15,9 +15,6 @@
 		AA2F1DEF17ECD84D001AB1D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F1DEE17ECD84D001AB1D6 /* AppDelegate.m */; };
 		AA2F1DF517ECD84D001AB1D6 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2F1DF417ECD84D001AB1D6 /* TMViewController.m */; };
 		AA2F1DF717ECD84D001AB1D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F1DF617ECD84D001AB1D6 /* Images.xcassets */; };
-		AA2F1DFE17ECD84D001AB1D6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DFD17ECD84D001AB1D6 /* XCTest.framework */; };
-		AA2F1DFF17ECD84D001AB1D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */; };
-		AA2F1E0017ECD84D001AB1D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F1DE217ECD84D001AB1D6 /* UIKit.framework */; };
 		D335DE1E1836E007008F9530 /* TMMaxPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D335DE1D1836E007008F9530 /* TMMaxPickerCell.m */; };
 		D3377F8217FF71F400993815 /* TMTimePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3377F8117FF71F400993815 /* TMTimePickerCell.m */; };
 		D36AE221183D72600075C8E9 /* TMTimerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AE220183D72600075C8E9 /* TMTimerConfiguration.m */; };
@@ -39,16 +36,6 @@
 		D3E3E340184BA354005DEC60 /* TMSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3E33F184BA354005DEC60 /* TMSectionHeader.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AA2F1E0117ECD84D001AB1D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA2F1DD317ECD84D001AB1D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA2F1DDA17ECD84D001AB1D6;
-			remoteInfo = TimeMe;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +50,6 @@
 		AA2F1DF317ECD84D001AB1D6 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
 		AA2F1DF417ECD84D001AB1D6 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
 		AA2F1DF617ECD84D001AB1D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AA2F1DFC17ECD84D001AB1D6 /* BzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA2F1DFD17ECD84D001AB1D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D335DE1C1836E007008F9530 /* TMMaxPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMaxPickerCell.h; sourceTree = "<group>"; };
 		D335DE1D1836E007008F9530 /* TMMaxPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMaxPickerCell.m; sourceTree = "<group>"; };
 		D335DE1F1836E0A7008F9530 /* TMTimePickerCell_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTimePickerCell_Private.h; sourceTree = "<group>"; };
@@ -117,16 +102,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA2F1DF917ECD84D001AB1D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA2F1DFE17ECD84D001AB1D6 /* XCTest.framework in Frameworks */,
-				AA2F1E0017ECD84D001AB1D6 /* UIKit.framework in Frameworks */,
-				AA2F1DFF17ECD84D001AB1D6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -143,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */,
-				AA2F1DFC17ECD84D001AB1D6 /* BzzTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +129,6 @@
 				AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */,
 				AA2F1DE017ECD84D001AB1D6 /* CoreGraphics.framework */,
 				AA2F1DE217ECD84D001AB1D6 /* UIKit.framework */,
-				AA2F1DFD17ECD84D001AB1D6 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -281,24 +254,6 @@
 			productReference = AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA2F1DFB17ECD84D001AB1D6 /* BzzTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA2F1E1017ECD84D001AB1D6 /* Build configuration list for PBXNativeTarget "BzzTests" */;
-			buildPhases = (
-				AA2F1DF817ECD84D001AB1D6 /* Sources */,
-				AA2F1DF917ECD84D001AB1D6 /* Frameworks */,
-				AA2F1DFA17ECD84D001AB1D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AA2F1E0217ECD84D001AB1D6 /* PBXTargetDependency */,
-			);
-			name = BzzTests;
-			productName = TimeMeTests;
-			productReference = AA2F1DFC17ECD84D001AB1D6 /* BzzTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,11 +262,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = KCBODK;
-				TargetAttributes = {
-					AA2F1DFB17ECD84D001AB1D6 = {
-						TestTargetID = AA2F1DDA17ECD84D001AB1D6;
-					};
-				};
 			};
 			buildConfigurationList = AA2F1DD617ECD84D001AB1D6 /* Build configuration list for PBXProject "Bzz" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,7 +277,6 @@
 			projectRoot = "";
 			targets = (
 				AA2F1DDA17ECD84D001AB1D6 /* Bzz */,
-				AA2F1DFB17ECD84D001AB1D6 /* BzzTests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,13 +288,6 @@
 			files = (
 				AA2F1DF717ECD84D001AB1D6 /* Images.xcassets in Resources */,
 				AA2F1DE917ECD84D001AB1D6 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA2F1DFA17ECD84D001AB1D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,22 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA2F1DF817ECD84D001AB1D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AA2F1E0217ECD84D001AB1D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AA2F1DDA17ECD84D001AB1D6 /* Bzz */;
-			targetProxy = AA2F1E0117ECD84D001AB1D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AA2F1DE717ECD84D001AB1D6 /* InfoPlist.strings */ = {
@@ -509,48 +436,6 @@
 			};
 			name = Release;
 		};
-		AA2F1E1117ECD84D001AB1D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeMe.app/TimeMe";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TimeMe/TimeMe-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TimeMeTests/BzzTests-Info.plist";
-				PRODUCT_NAME = BzzTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AA2F1E1217ECD84D001AB1D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeMe.app/TimeMe";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TimeMe/TimeMe-Prefix.pch";
-				INFOPLIST_FILE = "TimeMeTests/BzzTests-Info.plist";
-				PRODUCT_NAME = BzzTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +453,6 @@
 			buildConfigurations = (
 				AA2F1E0E17ECD84D001AB1D6 /* Debug */,
 				AA2F1E0F17ECD84D001AB1D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA2F1E1017ECD84D001AB1D6 /* Build configuration list for PBXNativeTarget "BzzTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA2F1E1117ECD84D001AB1D6 /* Debug */,
-				AA2F1E1217ECD84D001AB1D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
