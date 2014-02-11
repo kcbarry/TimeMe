@@ -36,7 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F1DDB17ECD84D001AB1D6 /* bzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2F1DDE17ECD84D001AB1D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA2F1DE017ECD84D001AB1D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AA2F1DE217ECD84D001AB1D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -114,7 +114,7 @@
 		AA2F1DDC17ECD84D001AB1D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */,
+				AA2F1DDB17ECD84D001AB1D6 /* bzz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			);
 			name = Bzz;
 			productName = TimeMe;
-			productReference = AA2F1DDB17ECD84D001AB1D6 /* Bzz.app */;
+			productReference = AA2F1DDB17ECD84D001AB1D6 /* bzz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -406,7 +406,8 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Bzz;
+				PRODUCT_NAME = bzz;
+				PROVISIONING_PROFILE = "AA62E801-997B-4FF5-A632-1FEAC1095038";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$SOURCE_ROOT/TMLibrary/**";
 				WRAPPER_EXTENSION = app;
@@ -425,7 +426,8 @@
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = Bzz;
+				PRODUCT_NAME = bzz;
+				PROVISIONING_PROFILE = "218B414B-3BD7-49B1-B6E1-6C39032C969E";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$SOURCE_ROOT/TMLibrary/**";
 				WRAPPER_EXTENSION = app;
